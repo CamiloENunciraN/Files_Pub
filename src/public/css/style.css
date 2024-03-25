@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #151313FF;
+}
+#contenedor_r{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://i.gifer.com/Ettd.gif");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+#player{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+#contenedor{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    #contenedor_t{
+        width: 90%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #DEDDDAFF;
+    }
+        .button{
+            background-color: #5E5C64FF;
+            width: 150px;
+            height: 30px;
+            border-radius: 15px;
+            outline: none;
+            border: 1 px solid #241F31FF;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    #contenedor_l{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #contenedor_f{
+        width: 90%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid #DEDDDAFF;
+        color: #DEDDDAFF;
+    }
+.movie_tittle{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #DEDDDAFF;
+}
+    .movie_tittle h1{
+        color: #DEDDDAFF;
+        text-align: center;
+    }
+.movie{
+    width: 90%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #DEDDDAFF;
+}
+    .movie a{
+        color: #DEDDDAFF;
+        margin-left: 30px;
+        cursor: pointer;
+    }
+    .movie a:hover{
+        color: #FF7800FF;
+        text-decoration: underline;
+    }
+footer{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    color: grey;
+}
+footer a:hover{
+    color: #FF7800FF;
+}
